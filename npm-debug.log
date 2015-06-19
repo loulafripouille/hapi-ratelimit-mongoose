@@ -1,0 +1,93 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish', './' ]
+2 info using npm@2.3.0
+3 info using node@v0.11.16
+4 verbose publish [ './' ]
+5 silly cache add args [ './', null ]
+6 verbose cache add spec ./
+7 silly cache add parsed spec { raw: './',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: './',
+7 silly cache add   spec: '/Users/audeon/hapi-ratelimit-mongoose',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/audeon/.npm/hapi-ratelimit-mongoose/0.1.0/package.tgz not in flight; packing
+9 verbose tar pack [ '/Users/audeon/.npm/hapi-ratelimit-mongoose/0.1.0/package.tgz',
+9 verbose tar pack   '/Users/audeon/hapi-ratelimit-mongoose' ]
+10 verbose tarball /Users/audeon/.npm/hapi-ratelimit-mongoose/0.1.0/package.tgz
+11 verbose folder /Users/audeon/hapi-ratelimit-mongoose
+12 info prepublish hapi-ratelimit-mongoose@0.1.0
+13 verbose addLocalTarball adding from inside cache /Users/audeon/.npm/hapi-ratelimit-mongoose/0.1.0/package.tgz
+14 silly cache afterAdd hapi-ratelimit-mongoose@0.1.0
+15 verbose afterAdd /Users/audeon/.npm/hapi-ratelimit-mongoose/0.1.0/package/package.json not in flight; writing
+16 verbose afterAdd /Users/audeon/.npm/hapi-ratelimit-mongoose/0.1.0/package/package.json written
+17 silly publish { name: 'hapi-ratelimit-mongoose',
+17 silly publish   version: '0.1.0',
+17 silly publish   description: 'hapi.js plugin that does global and/or route specific rate limit control using mongoose',
+17 silly publish   main: 'lib/index.js',
+17 silly publish   dependencies: { mongoose: '^4.0.5' },
+17 silly publish   devDependencies: {},
+17 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'https://github.com/laudeon/hapi-ratelimit-mongoose.git' },
+17 silly publish   keywords: [ 'rate', 'limit', 'hapi', 'hapijs', 'mongoose', 'plugin' ],
+17 silly publish   author: { name: 'laudeon' },
+17 silly publish   license: 'MIT',
+17 silly publish   bugs: { url: 'https://github.com/laudeon/hapi-ratelimit-mongoose/issues' },
+17 silly publish   gitHead: '18663a91029044ac7e9fefef0cb59e1037774191',
+17 silly publish   readme: '# hapi-ratelimit-mongoose\nThis is a simple ip (and optional path) based rate limit plugin for Hapi using mongoose.\n',
+17 silly publish   readmeFilename: 'README.md',
+17 silly publish   homepage: 'https://github.com/laudeon/hapi-ratelimit-mongoose',
+17 silly publish   _id: 'hapi-ratelimit-mongoose@0.1.0',
+17 silly publish   _shasum: '41f706a8a212af1355c0a6b8919fa844e6939b92',
+17 silly publish   _from: '.' }
+18 silly mapToRegistry name hapi-ratelimit-mongoose
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/hapi-ratelimit-mongoose
+22 verbose publish registryBase https://registry.npmjs.org/
+23 silly publish uploading /Users/audeon/.npm/hapi-ratelimit-mongoose/0.1.0/package.tgz
+24 verbose request uri https://registry.npmjs.org/hapi-ratelimit-mongoose
+25 verbose request sending authorization for write operation
+26 info attempt registry request try #1 at 16:33:52
+27 verbose request using bearer token for auth
+28 verbose request id 299df23d681804e9
+29 http request PUT https://registry.npmjs.org/hapi-ratelimit-mongoose
+30 http 403 https://registry.npmjs.org/hapi-ratelimit-mongoose
+31 verbose headers { 'content-type': 'application/json',
+31 verbose headers   'cache-control': 'max-age=60',
+31 verbose headers   'content-length': '95',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Fri, 19 Jun 2015 14:33:53 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-lcy1127-LCY',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1434724433.031238,VS0,VE718' }
+32 verbose request invalidating /Users/audeon/.npm/registry.npmjs.org/hapi-ratelimit-mongoose on PUT
+33 error publish Failed PUT 403
+34 verbose stack Error: "You cannot publish over the previously published version 0.1.0." : hapi-ratelimit-mongoose
+34 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:254:14)
+34 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:178:14)
+34 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:373:22)
+34 verbose stack     at Request.emit (events.js:110:17)
+34 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1318:14)
+34 verbose stack     at Request.emit (events.js:129:20)
+34 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1266:12)
+34 verbose stack     at IncomingMessage.emit (events.js:129:20)
+34 verbose stack     at _stream_readable.js:908:16
+34 verbose stack     at process._tickCallback (node.js:355:11)
+35 verbose statusCode 403
+36 verbose pkgid hapi-ratelimit-mongoose
+37 verbose cwd /Users/audeon/hapi-ratelimit-mongoose
+38 error Darwin 13.4.0
+39 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "./"
+40 error node v0.11.16
+41 error npm  v2.3.0
+42 error code E403
+43 error "You cannot publish over the previously published version 0.1.0." : hapi-ratelimit-mongoose
+44 error If you need help, you may report this error at:
+44 error     <http://github.com/npm/npm/issues>
+45 verbose exit [ 1, true ]
