@@ -1,11 +1,19 @@
 {
   "name": "hapi-ratelimit-mongoose",
+<<<<<<< HEAD
   "version": "0.1.2",
   "description": "hapi.js plugin that does global and/or route specific rate limit control using mongoose",
   "main": "lib/index.js",
   "dependencies": {
     "mongoose": "^4.0.5",
     "hapi": "^6.7.1"
+=======
+  "version": "0.1.0",
+  "description": "hapi.js plugin that does global and/or route specific rate limit control using mongoose",
+  "main": "lib/index.js",
+  "dependencies": {
+    "mongoose": "^4.0.5"
+>>>>>>> 312165bbda97beeed40a00ff555857000578631a
   },
   "devDependencies": {},
   "scripts": {
@@ -16,10 +24,19 @@
     "url": "https://github.com/laudeon/hapi-ratelimit-mongoose.git"
   },
   "keywords": [
+<<<<<<< HEAD
     "rate limit",
     "hapi",
     "hapijs",
     "mongoose"
+=======
+    "rate",
+    "limit",
+    "hapi",
+    "hapijs",
+    "mongoose",
+    "plugin"
+>>>>>>> 312165bbda97beeed40a00ff555857000578631a
   ],
   "author": {
     "name": "laudeon"
@@ -27,6 +44,7 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/laudeon/hapi-ratelimit-mongoose/issues"
+<<<<<<< HEAD
   },
   "homepage": "https://github.com/laudeon/hapi-ratelimit-mongoose",
   "_id": "hapi-ratelimit-mongoose@0.1.0",
@@ -50,4 +68,7 @@
   ],
   "directories": {},
   "_resolved": "https://registry.npmjs.org/hapi-ratelimit-mongoose/-/hapi-ratelimit-mongoose-0.1.0.tgz"
+=======
+  }
+>>>>>>> 312165bbda97beeed40a00ff555857000578631a
 }
