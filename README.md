@@ -3,7 +3,7 @@
 This package is a Hapi.js plugin based on MongoDB that give a global rate limit control on your app/API. 
 You can also set up some specific rate limits on each route config.
 
-###Global rate limit setup
+### Global rate limit setup
 
 ```
 server.register({
@@ -19,7 +19,7 @@ server.register({
 });
 ```
 
-###Route rate limit setup
+### Route rate limit setup
 
 ```
 server.route({
