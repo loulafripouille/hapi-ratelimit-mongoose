@@ -10,7 +10,7 @@ Go in your project root directory and install with npm:
 npm install hapi-ratelimit-mongoose --save
 ```
 
-####Global rate limit setup
+#### Global rate limit setup
 
 ```
 server.register({
@@ -26,7 +26,7 @@ server.register({
 });
 ```
 
-####Route rate limit setup
+#### Route rate limit setup
 
 ```
 server.route({
