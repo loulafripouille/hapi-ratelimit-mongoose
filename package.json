@@ -68,7 +68,7 @@
   ],
   "name": "hapi-ratelimit-mongoose",
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/laudeon/hapi-ratelimit-mongoose.git"
