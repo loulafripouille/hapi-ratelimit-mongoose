@@ -42,7 +42,7 @@
   "dependencies": {
     "hapi": "^11.1.2",
     "mongoose": "^4.3.1"
-    },
+  },
   "description": "This package is a Hapi.js plugin based on MongoDB & Mongoose that give a global rate limit control on your app/API. You can also set up some specific rate limits on each route config.",
   "devDependencies": {},
   "directories": {},
@@ -76,5 +76,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.4"
+  "version": "1.1.0"
 }
