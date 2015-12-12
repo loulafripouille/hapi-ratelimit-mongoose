@@ -1,27 +1,80 @@
 {
-  "name": "hapi-ratelimit-mongoose",
-  "version": "1.0.4",
-  "description": "This package is a Hapi.js plugin based on MongoDB & Mongoose that give a global rate limit control on your app/API. You can also set up some specific rate limits on each route config.",
-  "main": "lib/index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/laudeon/hapi-ratelimit-mongoose.git"
-  },
-  "keywords": [
-    "rate limit",
-    "hapi",
-    "hapijs",
-    "mongoose"
+  "_args": [
+    [
+      "hapi-ratelimit-mongoose",
+      "/Users/audeon/Sites/test-rate-limit"
+    ]
   ],
+  "_from": "hapi-ratelimit-mongoose@latest",
+  "_id": "hapi-ratelimit-mongoose@1.0.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/hapi-ratelimit-mongoose",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "email": "audeon.louis@gmail.com",
+    "name": "laudeon"
+  },
+  "_npmVersion": "2.10.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "hapi-ratelimit-mongoose",
+    "raw": "hapi-ratelimit-mongoose",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hapi-ratelimit-mongoose/-/hapi-ratelimit-mongoose-1.0.4.tgz",
+  "_shasum": "8733f70b529a24c34dac46a553369d826c8d8ecf",
+  "_shrinkwrap": null,
+  "_spec": "hapi-ratelimit-mongoose",
+  "_where": "/Users/audeon/Sites/test-rate-limit",
   "author": {
     "name": "laudeon"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/laudeon/hapi-ratelimit-mongoose/issues"
-  }
+  },
+  "dependencies": {
+    "hapi": "^11.1.2",
+    "mongoose": "^4.3.1"
+    },
+  "description": "This package is a Hapi.js plugin based on MongoDB & Mongoose that give a global rate limit control on your app/API. You can also set up some specific rate limits on each route config.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8733f70b529a24c34dac46a553369d826c8d8ecf",
+    "tarball": "http://registry.npmjs.org/hapi-ratelimit-mongoose/-/hapi-ratelimit-mongoose-1.0.4.tgz"
+  },
+  "gitHead": "50ca7337b7585713880504b1b0185c38b7ca3c48",
+  "homepage": "https://github.com/laudeon/hapi-ratelimit-mongoose#readme",
+  "keywords": [
+    "hapi",
+    "hapijs",
+    "mongoose",
+    "rate limit"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "laudeon",
+      "email": "audeon.louis@gmail.com"
+    }
+  ],
+  "name": "hapi-ratelimit-mongoose",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laudeon/hapi-ratelimit-mongoose.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
 }
