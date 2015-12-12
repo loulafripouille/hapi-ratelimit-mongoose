@@ -12,7 +12,9 @@ npm install hapi-ratelimit-mongoose --save
 
 #### Global rate limit setup
 
-```
+```js
+//server.js or app.js ... (anywhere you setup your server)
+
 server.register({
 	register: require('hapi-ratelimit-mongoose'),
 	options: {
@@ -28,7 +30,9 @@ server.register({
 
 #### Route rate limit setup
 
-```
+```js
+//route.js or main.js ... (anywhere you define a route)
+
 server.route({
     method: 'GET',
     path: '/',
@@ -42,3 +46,8 @@ server.route({
 	}
 });
 ```
+
+##Todo
+
+* Setup unit test (so refactor & review some part of the code)
+* Add way to store IP/timestamp, not just mongoDB (JSON for example...). Then, allow to choose the storage system in the options parameter.
