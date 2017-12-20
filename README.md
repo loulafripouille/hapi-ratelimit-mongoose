@@ -1,4 +1,6 @@
-# hapi-ratelimit-mongoose  
+# hapi-ratelimit-mongoose [ABANDONED]
+
+**I do not maintain this project anymore**
 
 [![NPM](https://nodei.co/npm/hapi-ratelimit-mongoose.png)](https://nodei.co/npm/hapi-ratelimit-mongoose/)  
 
